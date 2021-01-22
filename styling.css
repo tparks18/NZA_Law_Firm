@@ -1,8 +1,87 @@
 /* Tatyana's section */
+body {
+  background-image: url(https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-color: white;
+}
 
+.main-box {
+  position: relative;
+  width: 1331px;
+  height: 896px;
+  margin: 240px auto;
+  background-color: white;
+}
+
+.login-box {
+  position: absolute;
+  margin-left: 1181px;
+  line-height: 46px;
+  width: 77px;
+  height: 45px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.login-box p {
+  color: white;
+  text-align: center;
+}
+.logo-wrapper {
+  width: 372px;
+  height: 90px;
+}
+
+.logo-wrapper img {
+  position: relative;
+  width: 100%;
+  margin-left: 80px;
+  margin-top: 75px;
+}
+
+.navigation-bar {
+  display: table;
+  width: 1181px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  grid-area: nav;
+}
+
+.navigation-bar li {
+  padding-left: 10px;
+  text-align: center;
+  float: left;
+  line-height: 46px;
+  position: relative;
+  margin-left: 72px;
+  background-color: yellow;
+}
+
+ul li:not(:last-child)::after {
+  content: "";
+  border: 1px solid #e2e2e2;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  margin-right: 13px;
+  top: 0;
+  height: 100%;
+}
+
+.navigation-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+}
 
 /* Eddie's section */
-
-
 
 /* Josh's Section */
