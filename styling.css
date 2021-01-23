@@ -1,7 +1,8 @@
 /* Tatyana's section */
 body {
-  background-image: url(https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-image: url(images_for_contact_page/NZA_law_background.jpg);
   background-color: white;
+  font: arial;
 }
 
 .main-box {
@@ -39,47 +40,207 @@ body {
   margin-top: 75px;
 }
 
-.navigation-bar {
+.navbar {
   display: table;
   width: 1181px;
-  margin: 0 auto;
-  padding-top: 100px;
+  margin-top: 19px;
+  margin-left: 17%;
+  margin-right: 25%;
 }
 
-.navigation-bar ul {
-  list-style-type: none;
+.navbar ul {
+  display: flex;
   overflow: hidden;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  grid-area: nav;
+  justify-content: space-between;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
 }
 
-.navigation-bar li {
-  padding-left: 10px;
-  text-align: center;
-  float: left;
-  line-height: 46px;
-  position: relative;
-  margin-left: 72px;
-  background-color: yellow;
+.navbar li {
+  list-style-type: none;
 }
 
-ul li:not(:last-child)::after {
-  content: "";
-  border: 1px solid #e2e2e2;
-  border-width: 1px 1px 0 0;
-  position: absolute;
-  margin-right: 13px;
-  top: 0;
-  height: 100%;
-}
-
-.navigation-bar li a {
-  display: block;
+.navbar li a {
   color: black;
+}
+
+.navbar-item {
+  padding: 16px 0;
+  width: 100%;
+}
+
+.navbar-item-content {
+  border-left: 1px lightgrey solid;
   text-align: center;
-  text-decoration: none;
-  background-color: green;
+}
+
+.navbar-item-content-first {
+  text-align: center;
+  border-left: none;
+}
+.grid-container {
+  margin-top: 190px;
+  width: 1196px;
+  height: 506px;
+  margin-left: 5.5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 286px 400px 143px 286px;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 14px;
+  grid-template-areas:
+    "left-sidebar telephone-pic telephone-pic right-sidebar"
+    "left-sidebar contact-text contact-text right-sidebar";
+}
+
+.left-sidebar {
+  grid-area: left-sidebar;
+}
+
+.telephone-pic {
+  grid-area: telephone-pic;
+}
+
+.contact-text {
+  grid-area: contact-text;
+}
+
+.right-sidebar {
+  grid-area: right-sidebar;
+}
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  /*border: 1px solid red;*/
+  position: relative;
+}
+
+.left-sidebar {
+  position: relative;
+  width: 286px;
+  height: 431px;
+  background-color: red;
+  background-image: linear-gradient(brown, #772f27);
+}
+
+.left-sidebar h4 {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.left-sidebar li {
+  color: white;
+  list-style-type: none;
+}
+
+.left-sidebar li a {
+  color: white;
+}
+
+.left-sidebar a {
+  color: white;
+}
+
+.left-sidebar strong {
+  margin-left: 7.8%;
+}
+
+.left-sidebar p {
+  color: white;
+  padding-left: 12px;
+  margin-left: 4%;
+}
+
+.left-sidebar-img-container {
+  margin-left: 7.7%;
+}
+
+.left-sidebar img {
+  margin-left: 0.5%;
+  margin-bottom: 5%;
+  border: 1px solid white;
+}
+
+.telephone-pic img {
+  border-style: double;
+  border-width: 10px;
+  position: relative;
+  border-color: black;
+}
+.right-sidebar {
+  position: relative;
+  width: 288px;
+  height: 460px;
+  background-color: white;
+  background-image: linear-gradient(#ded7d1, #d6cec5);
+  margin-right: 70px;
+}
+
+.right-sidebar strong {
+  margin-left: 8%;
+  color: #7e302d;
+}
+
+.right-sidebar p {
+  margin-left: 8%;
+  margin-top: 0.5%;
+}
+
+.map-pic img {
+  border: 2px solid black;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.group-pic img {
+  border: 3px solid black;
+  margin-bottom: 3%;
+}
+hr {
+  border: 1px solid black;
+  margin-right: 7%;
+  margin-left: 6%;
+}
+
+.footer-navbar {
+  display: table;
+  width: 1181px;
+  margin-top: 19px;
+  margin-left: 4%;
+}
+
+.footer-navbar ul {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.footer-navbar li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer-navbar li a {
+  color: black;
+}
+
+.footer-navbar-item-content {
+  list-style-type: none;
+}
+
+.footer-span {
+  display: flex;
+  color: lightgray;
+  justify-content: space-around;
 }
 
 /* Eddie's section */
